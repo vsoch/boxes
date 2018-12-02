@@ -6,8 +6,7 @@ FROM ubuntu:18.04
 RUN apt-get update && \
     apt-get install -y boxes
 
-ADD entrypoint.sh /entrypoint.sh
-ADD messages.txt /messages.txt
+ADD . /
 RUN chmod u+x /entrypoint.sh && \
     mkdir -p /data
 
