@@ -1,4 +1,4 @@
-# The Linux Box Generator
+# Boxes: The Linux Box Generator
 
 Sometimes you just need to write ludicrous things inside of a a Santa or Unicorn box.
 Do you know [Confucius](https://en.wikipedia.org/wiki/Confucius)? I'm definitely a fan!
