@@ -6,7 +6,7 @@ Inspired by [linux toy boxes](https://opensource.com/article/18/12/linux-toy-box
 and because I have extreme prowess in making things that are useful **sarcasm**, 
 I present to you the linux box generator! And of course it's in a container. Let's get started.
 
-[![asciicast](https://asciinema.org/a/214790.svg)](https://asciinema.org/a/214790)
+![boxes.png](boxes.png)
 
 ## Build
 
@@ -61,6 +61,10 @@ selected messages. Here is how to do that:
 ```bash
 docker run vanessa/boxes all --message
 ```
+
+And here is how it looks:
+
+[![asciicast](https://asciinema.org/a/214790.svg)](https://asciinema.org/a/214790)
 
 If you just want **one** message, then remove "all"
 
