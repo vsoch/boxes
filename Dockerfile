@@ -4,7 +4,7 @@ FROM ubuntu:18.04
 # docker run vanessa/boxes "Like omhmahgosh potatoes"
 
 RUN apt-get update && \
-    apt-get install -y boxes jq
+    apt-get install -y boxes jq curl
 
 ADD . /
 RUN chmod u+x /entrypoint.sh && \
