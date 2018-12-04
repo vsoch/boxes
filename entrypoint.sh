@@ -139,7 +139,7 @@ while true; do
             BOXES_TEMPLATE=${1:-}
             shift
         ;;
-        --messages-file)
+        --messages-file|--message-file)
             shift
             BOXES_MESSAGE_FILE=${1:-}
             shift
