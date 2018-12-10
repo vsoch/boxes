@@ -17,4 +17,4 @@ RUN chmod u+x /entrypoint.sh && \
     pip3 install requests && \
     mkdir -p /data
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/bin/bash","/entrypoint.sh"]
